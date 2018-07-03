@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## this function calculate the inverse matrix and stored it in lexical scoping
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
@@ -16,7 +16,7 @@ inv <- NULL
 }
 
 
-## Write a short comment describing this function
+## ## apply solve for matrix if the inverse don't exxist in lexical scoping
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
